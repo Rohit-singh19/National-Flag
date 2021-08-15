@@ -115,14 +115,6 @@
     animation: spokes 10s linear 2s infinite;
 }
 
-@keyframes spokes {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
 .spoke {
     position: absolute;
     display:inline-block;
@@ -172,4 +164,14 @@
 }
 .spoke:nth-child(12){
     transform: rotate(165deg);
+}
+
+
+@keyframes spokes {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
